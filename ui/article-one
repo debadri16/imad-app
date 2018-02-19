@@ -1,0 +1,62 @@
+<!--Button/Link
+	Form
+	Table-->
+
+
+<html>
+
+<head>
+	<title>Bootstrap Components</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<form class="form">
+					<label>Email:</label><br>
+					<input type="email" class="form-control"><br>
+					<label>Password:</label><br>
+					<input type="password" class="form-control"><br>
+					<input type="submit" value="Login" class="btn btn-primary btn-lg btn-block">
+				</form>
+			</div>
+
+			<div class="col-md-6">
+				<table class="table table-bordered table-responsive">
+					<tr>
+						<th>S.No</th>
+						<th>Name</th>
+						<th>College</th>
+						<th>Gender</th>
+						
+					</tr>
+
+					<tr>
+						<td>1</td>
+						<td>Rahul</td>
+						<td>NIT Durgapur</td>
+						<td>Male</td>
+					</tr>
+
+					<tr>
+						<td>1</td>
+						<td>Rahul</td>
+						<td>NIT Durgapur</td>
+						<td>Male</td>
+					</tr>
+
+					<tr>
+						<td>1</td>
+						<td>Rahul</td>
+						<td>NIT Durgapur</td>
+						<td>Male</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
